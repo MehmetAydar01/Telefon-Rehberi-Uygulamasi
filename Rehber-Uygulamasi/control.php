@@ -44,10 +44,10 @@
             </script>
         ";
 
-        setcookie("name", $ad, time() + 20000);
-        setcookie("lastName", $soyad, time() + 20000);
-        setcookie("email", $email, time() + 20000);
-        setcookie("phoneNumber", $telefon, time() + 20000);
+        setcookie("name", $ad, time() + 3600);
+        setcookie("lastName", $soyad, time() + 3600);
+        setcookie("email", $email, time() + 3600);
+        setcookie("phoneNumber", $telefon, time() + 3600);
 
     } else {
         echo "
